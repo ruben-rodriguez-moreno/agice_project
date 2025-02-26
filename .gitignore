@@ -1,0 +1,66 @@
+# Archivos compilados y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de extensiones en C
+*.so
+
+# Carpetas de entornos virtuales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+agice-env/
+
+# Registros de instaladores y caché de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Reportes de tests y cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Carpetas usadas por herramientas de construcción (PyBuilder)
+target/
+
+# Notebooks de Jupyter
+.ipynb_checkpoints
+
+# Configuración y datos de Flask
+instance/
+.webassets-cache
+
+# Archivos de configuración sensibles
+.env
+
+# Carpetas de IDEs y editores
+.idea/
+.vscode/
+
+# Caché de mypy
+.mypy_cache/
+
+# Archivos de Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+
+# Si tienes un frontend basado en Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
